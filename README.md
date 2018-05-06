@@ -1,6 +1,6 @@
 # Handwritten Digit Recognition Using Neural Network
 
-![alt text](img/MNIST.png)
+<img src="img/MNIST.png" width="80%"/>
 
 This repo builds a 3-layer neural network from scratch to recognize the MNIST Database of handwritten digits, only based on a python library ```numpy```.
 
@@ -34,11 +34,11 @@ Use ```test.py``` to show the test images by ```opencv``` and print the predicte
 * epoch: 5
 * final loss: 0.6
 
-![alt text](img/loss.png)
+<img src="img/loss.png" width="50%"/>
 
 * accuracy: 0.92
 
-![alt text](img/result.jpg)
+<img src="img/result.jpg" width="30%"/>
 
 ## Blog Post
 https://medium.com/deep-learning-g/handwritten-digit-recognition-using-neural-network-67d7ec76a013
