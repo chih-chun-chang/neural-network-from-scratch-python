@@ -33,8 +33,11 @@ Use ```test.py``` to show the test images by ```opencv``` and print the predicte
 * learning rate: 0.001
 * epoch: 5
 * final loss: 0.6
+
 ![alt text](img/loss.png)
+
 * accuracy: 0.92
+
 ![alt text](img/result.jpg)
 
 ## Blog Post
