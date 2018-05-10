@@ -13,7 +13,7 @@ def softmax(inputs):
 # loss
 def cross_entropy(inputs, y):
     indices = np.argmax(y, axis = 1).astype(int)
-    probability = inputs[np.arange(len(inputs)), indices]
+    probability = inputs[np.arange(len(inputs)), indices] #inputs[0, indices]
     log = np.log(probability)
     loss = -1.0 * np.sum(log) / len(log)
     return loss
